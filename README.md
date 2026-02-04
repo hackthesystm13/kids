@@ -1,10 +1,4 @@
-diff --git a/README.md b/README.md
-index cafba8fe01d164bc789494f13636ab70324d93e9..d2ea0704c75608b2a746f063fe48ba0e875bb203 100644
---- a/README.md
-+++ b/README.md
-@@ -1 +1,44 @@
--# kids
-\ No newline at end of file
+
 +# kids
 +
 +## Compatibility check (before install/setup)
