@@ -1,10 +1,4 @@
-diff --git a/README.md b/README.md
-index cafba8fe01d164bc789494f13636ab70324d93e9..a68eb6d4889322a2711e620c7299d92d27c0baa3 100644
---- a/README.md
-+++ b/README.md
-@@ -1 +1,25 @@
--# kids
-\ No newline at end of file
+
 +# Kids Shield (workable MVP)
 +
 +Kids Shield is now a runnable Android MVP that gives parents a practical control center with:
