@@ -1,26 +1,66 @@
 
-+# Kids Shield (workable MVP)
-+
-+Kids Shield is now a runnable Android MVP that gives parents a practical control center with:
-+
-+- **Live compatibility checks** (OS version, device-owner status, vendor limitations, DNS readiness)
-+- **Configurable restriction goals** (app installs, unsafe sites, profanity/nudity categories, chat/calls, monitoring)
-+- **Generated implementation roadmap** you can copy and apply in an MDM/parential-control stack
-+
-+## What this app can do now
-+- Detect device details and show readiness checks directly on device.
-+- Let you configure core safety targets in a simple toggle-based interface.
-+- Create a text roadmap that translates selected controls into concrete setup actions.
-+
-+## Important platform limits
-+No Android app can guarantee 100% ad removal and total in-app communication blocking on every device without proper Device Owner enrollment and supporting platform controls. This MVP is designed to be realistic, safe, and fast while preparing the device for maximum available enforcement.
-+
-+## Run the app
-+1. Open in Android Studio.
-+2. Sync Gradle.
-+3. Run `app` on a real device/emulator.
-+
-+## Next implementation phase
-+- Add managed configuration persistence (DataStore)
-+- Add admin receiver + DevicePolicy integration for enforceable restrictions
-+- Add backend/reporting export endpoints for parent dashboards
+# Kids Shield
+
+**Practical Android Parental Control MVP**
+
+Kids Shield is a functional Android MVP designed to give parents a clear, realistic control center for managing device safety. It focuses on what is technically enforceable on modern Android devices while preparing the system for deeper policy integration.
+
+---
+
+## Core Capabilities
+
+### Live Device Readiness Checks
+
+* Android OS version verification
+* Device Owner status detection
+* Vendor-specific policy limitations
+* DNS configuration readiness
+
+These checks provide immediate insight into what level of enforcement is technically possible on the current device.
+
+### Configurable Safety Controls
+
+Parents can define restriction goals through a simple toggle-based interface, including:
+
+* App installation restrictions
+* Unsafe website blocking
+* Profanity and nudity content filtering targets
+* Chat and call limitations
+* Monitoring configuration preferences
+
+### Automated Implementation Roadmap
+
+Based on selected controls, the app generates a structured, step-by-step implementation guide.
+This roadmap translates user goals into actionable setup instructions suitable for MDM or parental-control deployment environments.
+
+---
+
+## Platform Realities & Enforcement Limits
+
+Android does not allow complete ad removal or total in-app communication blocking across all devices without proper Device Owner enrollment and system-level controls.
+
+Kids Shield is intentionally designed around platform realities. It prioritizes:
+
+* Enforceable policy paths
+* Transparent capability reporting
+* Maximum protection within Android’s security model
+
+The goal is practical control—not unrealistic promises.
+
+---
+
+## Running the Application
+
+1. Open the project in Android Studio.
+2. Sync Gradle dependencies.
+3. Launch the `app` module on a physical device or emulator.
+
+---
+
+## Next Development Phase
+
+* Implement persistent managed configuration via DataStore
+* Integrate DevicePolicyManager with an Admin Receiver for enforceable restrictions
+* Add backend endpoints for reporting and parent dashboard exports
+
+
